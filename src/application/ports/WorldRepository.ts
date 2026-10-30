@@ -1,4 +1,4 @@
-import type { World } from '../../domain/model/World';
+import type { World } from '../../domain/entities/World';
 
 export interface StoredWorld {
   /** A fresh instance: mutating it never changes what is stored until it is saved. */

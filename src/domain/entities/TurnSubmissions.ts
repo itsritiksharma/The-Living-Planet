@@ -1,6 +1,6 @@
 import type { ActionFactory } from '../actions/ActionFactory';
 import type { GameAction } from '../actions/GameAction';
-import type { PlayerActionDTO, PlayerId, TurnSubmissionsSnapshot } from './types';
+import type { PlayerActionDTO, PlayerId, TurnSubmissionsSnapshot } from '../model/types';
 
 export type SubmissionChange = 'recorded' | 'replaced' | 'unchanged';
 

@@ -1,5 +1,5 @@
 import { DomainError } from '../shared/DomainError';
-import type { PlayerId, PlayerSnapshot, PlayerTotals, SystemReport } from './types';
+import type { PlayerId, PlayerSnapshot, PlayerTotals, SystemReport } from '../model/types';
 
 /** A participant in the shared world. Owns a private credit balance; everything else is shared. */
 export class Player {

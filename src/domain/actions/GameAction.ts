@@ -1,8 +1,8 @@
 import type { SimulationConfig } from '../config/riverValley';
-import type { Player } from '../model/Player';
-import type { Structure } from '../model/Structure';
+import type { Player } from '../entities/Player';
+import type { Structure } from '../entities/Structure';
 import type { ActionType, PlayerActionDTO, StructureKind, ValidationCode, ValidationResult } from '../model/types';
-import type { World } from '../model/World';
+import type { World } from '../entities/World';
 
 /** What an action may do while one turn's actions are aggregated (turn order, step 2). */
 export interface AggregationContext {

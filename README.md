@@ -97,6 +97,8 @@ More detail, plus the acceptance checklist, is in [IMPLEMENTATION_LOG.md](IMPLEM
 ```text
 src/
   domain/          entities, value objects, actions, factories, domain services, scenario config
+    entities/      World (aggregate root), Player, Structure, CommunityProject, TurnSubmissions, EventLog
+    model/         value objects (IndicatorSet, DisplayName, ScenarioCalendar), snapshot types, labels
   application/     use cases, ports, idempotent command bus, read-model assemblers
   contracts/       wire protocol and view DTO types (shared with the browser)
   infrastructure/  in-memory repositories, WebSocket gateway, parser, controller, Vite plugin, composition

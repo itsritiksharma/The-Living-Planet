@@ -1,6 +1,6 @@
 import type { SimulationConfig } from '../config/riverValley';
 import type { DisplayName } from '../model/DisplayName';
-import { Player } from '../model/Player';
+import { Player } from '../entities/Player';
 import type { PlayerId } from '../model/types';
 
 export interface NewPlayerParams {

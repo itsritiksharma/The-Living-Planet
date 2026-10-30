@@ -1,8 +1,8 @@
 import type { SimulationConfig } from '../config/riverValley';
-import { CommunityProject } from '../model/CommunityProject';
+import { CommunityProject } from '../entities/CommunityProject';
 import { DisplayName } from '../model/DisplayName';
 import type { StructureSnapshot, WorldSnapshot } from '../model/types';
-import { World } from '../model/World';
+import { World } from '../entities/World';
 
 /** Creates worlds in the scenario's documented initial condition. */
 export class WorldFactory {

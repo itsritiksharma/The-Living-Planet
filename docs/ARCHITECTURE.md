@@ -38,10 +38,10 @@ The prototype follows Clean Architecture. Source dependencies point inward only,
   methods enforce invariants: bounded indicators, finite land, unique names, a player limit, and
   `checkInvariants()`. Use cases always work on a fresh instance rehydrated from a snapshot. The resolver
   works on a `clone()`, so a `World` a caller holds never changes behind its back.
-- **Entities:** `Player` (private credits; costs are charged exactly once), `Structure`, `CommunityProject`
+- **Entities** (`src/domain/entities`, together with `World`): `Player` (private credits; costs are charged exactly once), `Structure`, `CommunityProject`
   (proportional allocation of simultaneous offers; idempotent `startConstructionIfFunded` /
   `completeIfDue`), `TurnSubmissions` (idempotent `submit` / `cancel`) and `EventLog` (deterministic ids).
-- **Value objects:** `IndicatorSet` (0–100, settled to one decimal place, immutable), `DisplayName`,
+- **Value objects** (`src/domain/model`, with the snapshot types and labels): `IndicatorSet` (0–100, settled to one decimal place, immutable), `DisplayName`,
   `ScenarioCalendar`.
 - **Actions (Command pattern):** `GameAction` with one subclass per intention. Each subclass knows its
   `cost`, `validate(world, player)` and `apply(player, aggregationContext)`. `ActionFactory` turns untrusted

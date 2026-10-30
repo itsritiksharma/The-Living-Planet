@@ -2,7 +2,7 @@ import { ConcurrencyError } from '../../application/errors';
 import type { StoredWorld, WorldRepository } from '../../application/ports/WorldRepository';
 import type { SimulationConfig } from '../../domain/config/riverValley';
 import type { WorldSnapshot } from '../../domain/model/types';
-import { World } from '../../domain/model/World';
+import { World } from '../../domain/entities/World';
 
 /**
  * Phase 1 persistence: the current world lives in process memory and is lost on restart

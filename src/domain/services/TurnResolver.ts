@@ -1,13 +1,13 @@
 import { ActionFactory } from '../actions/ActionFactory';
 import type { AggregationContext } from '../actions/GameAction';
 import type { SimulationConfig } from '../config/riverValley';
-import type { ContributionOffer } from '../model/CommunityProject';
-import type { Player } from '../model/Player';
+import type { ContributionOffer } from '../entities/CommunityProject';
+import type { Player } from '../entities/Player';
 import { ScenarioCalendar } from '../model/ScenarioCalendar';
-import type { Structure } from '../model/Structure';
-import type { TurnSubmissions } from '../model/TurnSubmissions';
+import type { Structure } from '../entities/Structure';
+import type { TurnSubmissions } from '../entities/TurnSubmissions';
 import type { EventDraft, PlayerId, StructureKind } from '../model/types';
-import type { World } from '../model/World';
+import type { World } from '../entities/World';
 import { DomainError } from '../shared/DomainError';
 import { EconomyPolicy } from './EconomyPolicy';
 import { EventNarrator, type AppliedAction } from './EventNarrator';

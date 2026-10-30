@@ -2,9 +2,9 @@ import { ActionFactory } from '../../src/domain/actions/ActionFactory';
 import { RIVER_VALLEY_CONFIG, type SimulationConfig } from '../../src/domain/config/riverValley';
 import { WorldFactory } from '../../src/domain/factories/WorldFactory';
 import { DisplayName } from '../../src/domain/model/DisplayName';
-import { TurnSubmissions } from '../../src/domain/model/TurnSubmissions';
+import { TurnSubmissions } from '../../src/domain/entities/TurnSubmissions';
 import type { Indicators, PlayerActionDTO } from '../../src/domain/model/types';
-import { World } from '../../src/domain/model/World';
+import { World } from '../../src/domain/entities/World';
 import { TurnResolver } from '../../src/domain/services/TurnResolver';
 
 export const config = RIVER_VALLEY_CONFIG;

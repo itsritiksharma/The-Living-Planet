@@ -2,7 +2,7 @@ import { ActionFactory } from '../../domain/actions/ActionFactory';
 import type { SimulationConfig } from '../../domain/config/riverValley';
 import { plural } from '../../domain/model/labels';
 import type { PlayerActionDTO, PlayerId } from '../../domain/model/types';
-import type { World } from '../../domain/model/World';
+import type { World } from '../../domain/entities/World';
 import { percent } from '../../domain/shared/numbers';
 import type { ActionOptionDTO, ActionOptionKey } from '../../contracts/views';
 

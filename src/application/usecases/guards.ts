@@ -1,6 +1,6 @@
-import type { Player } from '../../domain/model/Player';
+import type { Player } from '../../domain/entities/Player';
 import type { PlayerId } from '../../domain/model/types';
-import type { World } from '../../domain/model/World';
+import type { World } from '../../domain/entities/World';
 import { ApplicationError } from '../errors';
 import type { StoredWorld, WorldRepository } from '../ports/WorldRepository';
 

@@ -1,5 +1,5 @@
 import type { ActionFactory } from '../../domain/actions/ActionFactory';
-import type { SubmissionChange } from '../../domain/model/TurnSubmissions';
+import type { SubmissionChange } from '../../domain/entities/TurnSubmissions';
 import type { PlayerId } from '../../domain/model/types';
 import { DomainError } from '../../domain/shared/DomainError';
 import type { ChangeNotifier, PresenceTracker } from '../ports/runtime';

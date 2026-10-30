@@ -1,7 +1,7 @@
 import type { SimulationConfig } from '../config/riverValley';
-import type { Player } from '../model/Player';
+import type { Player } from '../entities/Player';
 import type { ExpansionTarget, PlayerActionDTO, StructureKind, ValidationResult } from '../model/types';
-import type { World } from '../model/World';
+import type { World } from '../entities/World';
 import { GameAction, invalid, requireCredits, type ActionApplication, type AggregationContext } from './GameAction';
 
 function buildOrBlock(kind: StructureKind, slotName: string, player: Player, cost: number, context: AggregationContext): ActionApplication {

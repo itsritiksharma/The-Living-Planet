@@ -1,11 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import { ConserveWaterAction, ExpandProductionAction, WaitAction } from '../../src/domain/actions/actions';
-import { CommunityProject } from '../../src/domain/model/CommunityProject';
+import { CommunityProject } from '../../src/domain/entities/CommunityProject';
 import { DisplayName } from '../../src/domain/model/DisplayName';
 import { IndicatorSet } from '../../src/domain/model/IndicatorSet';
-import { Player } from '../../src/domain/model/Player';
-import { Structure } from '../../src/domain/model/Structure';
-import { TurnSubmissions } from '../../src/domain/model/TurnSubmissions';
+import { Player } from '../../src/domain/entities/Player';
+import { Structure } from '../../src/domain/entities/Structure';
+import { TurnSubmissions } from '../../src/domain/entities/TurnSubmissions';
 import { DomainError } from '../../src/domain/shared/DomainError';
 import { actionFactory, DTO } from '../helpers/fixtures';
 

@@ -1,6 +1,6 @@
-import type { Player } from '../../src/domain/model/Player';
+import type { Player } from '../../src/domain/entities/Player';
 import type { PlayerActionDTO } from '../../src/domain/model/types';
-import type { World } from '../../src/domain/model/World';
+import type { World } from '../../src/domain/entities/World';
 import { DTO, actionFactory, resolve } from './fixtures';
 
 /** A scripted player: picks an intention from the visible world state. */

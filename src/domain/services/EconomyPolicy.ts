@@ -1,5 +1,5 @@
 import type { SimulationConfig } from '../config/riverValley';
-import type { World } from '../model/World';
+import type { World } from '../entities/World';
 import type { EssentialKey, Indicators, PlayerId } from '../model/types';
 import { ESSENTIAL_KEYS } from '../model/types';
 

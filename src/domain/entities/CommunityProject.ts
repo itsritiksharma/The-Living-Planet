@@ -1,4 +1,4 @@
-import type { PlayerId, ProjectSnapshot, ProjectStatus } from './types';
+import type { PlayerId, ProjectSnapshot, ProjectStatus } from '../model/types';
 
 export interface ContributionOffer {
   playerId: PlayerId;

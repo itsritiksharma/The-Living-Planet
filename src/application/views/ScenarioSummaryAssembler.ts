@@ -3,7 +3,7 @@ import type { SimulationConfig } from '../../domain/config/riverValley';
 import { INDICATOR_LABELS, joinWords, OUTCOME_TITLES, plural } from '../../domain/model/labels';
 import type { IndicatorKey, StructureKind } from '../../domain/model/types';
 import { INDICATOR_KEYS } from '../../domain/model/types';
-import type { World } from '../../domain/model/World';
+import type { World } from '../../domain/entities/World';
 import { fixed1 } from '../../domain/shared/numbers';
 import type { ScenarioSummaryDTO } from '../../contracts/views';
 import { toEventView } from './eventView';

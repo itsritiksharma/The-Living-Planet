@@ -1,6 +1,6 @@
 import type { SimulationConfig } from '../config/riverValley';
 import { INDICATOR_LABELS, joinWords, lowerLabel } from '../model/labels';
-import type { World } from '../model/World';
+import type { World } from '../entities/World';
 import type { DepletableKey, Indicators, ScenarioOutcome } from '../model/types';
 import { DEPLETABLE_KEYS, ESSENTIAL_KEYS } from '../model/types';
 import { fixed1, round1, signed1 } from '../shared/numbers';

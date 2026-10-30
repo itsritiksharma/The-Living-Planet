@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { TurnSubmissions } from '../../src/domain/model/TurnSubmissions';
+import { TurnSubmissions } from '../../src/domain/entities/TurnSubmissions';
 import type { PlayerActionDTO } from '../../src/domain/model/types';
-import { World } from '../../src/domain/model/World';
+import { World } from '../../src/domain/entities/World';
 import { TurnResolver } from '../../src/domain/services/TurnResolver';
 import { DomainError } from '../../src/domain/shared/DomainError';
 import { actionFactory, config, DTO, newWorld, resolve, submissionsFor } from '../helpers/fixtures';

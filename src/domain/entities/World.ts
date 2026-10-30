@@ -3,9 +3,9 @@ import type { SimulationConfig } from '../config/riverValley';
 import { PlayerFactory } from '../factories/PlayerFactory';
 import { DomainError } from '../shared/DomainError';
 import { CommunityProject } from './CommunityProject';
-import type { DisplayName } from './DisplayName';
+import type { DisplayName } from '../model/DisplayName';
 import { EventLog } from './EventLog';
-import { IndicatorSet } from './IndicatorSet';
+import { IndicatorSet } from '../model/IndicatorSet';
 import { Player } from './Player';
 import { Structure } from './Structure';
 import type {
@@ -19,8 +19,8 @@ import type {
   TurnBreakdown,
   ValidationResult,
   WorldSnapshot,
-} from './types';
-import { INDICATOR_KEYS } from './types';
+} from '../model/types';
+import { INDICATOR_KEYS } from '../model/types';
 
 export type AdmitResult = 'admitted' | 'already_present';
 

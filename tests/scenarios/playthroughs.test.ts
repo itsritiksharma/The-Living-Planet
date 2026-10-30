@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import type { World } from '../../src/domain/model/World';
+import type { World } from '../../src/domain/entities/World';
 import { newWorld } from '../helpers/fixtures';
 import { balanced, coordinated, expansionist, playScenario, steward, waiter, type Strategy } from '../helpers/strategies';
 

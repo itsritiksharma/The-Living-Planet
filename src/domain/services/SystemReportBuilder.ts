@@ -1,10 +1,10 @@
 import type { SimulationConfig } from '../config/riverValley';
 import { INDICATOR_LABELS, joinWords, plural } from '../model/labels';
 import type { ScenarioCalendar } from '../model/ScenarioCalendar';
-import { TurnSubmissions } from '../model/TurnSubmissions';
+import { TurnSubmissions } from '../entities/TurnSubmissions';
 import type { ForecastPoint, IndicatorKey, Indicators, SystemReport, TurnBreakdown } from '../model/types';
 import { DEPLETABLE_KEYS } from '../model/types';
-import type { World } from '../model/World';
+import type { World } from '../entities/World';
 import { fixed1, percent, signed1 } from '../shared/numbers';
 import type { TurnSimulator } from './TurnSimulator';
 

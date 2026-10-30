@@ -1,4 +1,4 @@
-import type { TurnSubmissions } from '../../domain/model/TurnSubmissions';
+import type { TurnSubmissions } from '../../domain/entities/TurnSubmissions';
 
 /** Persistence port for players' pending intentions, keyed by world and turn. */
 export interface SubmissionRepository {

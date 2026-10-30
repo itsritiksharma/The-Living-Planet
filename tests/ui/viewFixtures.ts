@@ -1,7 +1,7 @@
 import { PlayerViewAssembler } from '../../src/application/views/PlayerViewAssembler';
 import type { PlayerViewDTO } from '../../src/contracts/views';
-import { TurnSubmissions } from '../../src/domain/model/TurnSubmissions';
-import type { World } from '../../src/domain/model/World';
+import { TurnSubmissions } from '../../src/domain/entities/TurnSubmissions';
+import type { World } from '../../src/domain/entities/World';
 import type { ReflectionsApi } from '../../src/ui/hooks/useGameClient';
 import { config } from '../helpers/fixtures';
 

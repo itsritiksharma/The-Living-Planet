@@ -1,4 +1,4 @@
-import type { PlayerId, StructureId, StructureKind, StructureSnapshot } from './types';
+import type { PlayerId, StructureId, StructureKind, StructureSnapshot } from '../model/types';
 
 /** Something built in the valley. Immutable once built; the map shows exactly these. */
 export class Structure {

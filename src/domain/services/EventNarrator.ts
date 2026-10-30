@@ -1,11 +1,11 @@
 import type { ActionApplication, GameAction } from '../actions/GameAction';
 import type { SimulationConfig } from '../config/riverValley';
-import type { ContributionAllocation } from '../model/CommunityProject';
+import type { ContributionAllocation } from '../entities/CommunityProject';
 import { INDICATOR_LABELS, joinWords, lowerLabel, OUTCOME_TITLES, plural } from '../model/labels';
-import type { Player } from '../model/Player';
+import type { Player } from '../entities/Player';
 import type { ScenarioCalendar } from '../model/ScenarioCalendar';
-import type { Structure } from '../model/Structure';
-import type { World } from '../model/World';
+import type { Structure } from '../entities/Structure';
+import type { World } from '../entities/World';
 import type {
   DepletableKey,
   EventDraft,

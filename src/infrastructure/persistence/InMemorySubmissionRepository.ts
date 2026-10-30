@@ -1,6 +1,6 @@
 import type { SubmissionRepository } from '../../application/ports/SubmissionRepository';
 import type { ActionFactory } from '../../domain/actions/ActionFactory';
-import { TurnSubmissions } from '../../domain/model/TurnSubmissions';
+import { TurnSubmissions } from '../../domain/entities/TurnSubmissions';
 import type { TurnSubmissionsSnapshot } from '../../domain/model/types';
 
 /** Pending intentions per (world, turn), kept as snapshots; only the current world's are retained. */

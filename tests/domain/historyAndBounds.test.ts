@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import type { PlayerActionDTO } from '../../src/domain/model/types';
 import { INDICATOR_KEYS } from '../../src/domain/model/types';
-import type { World } from '../../src/domain/model/World';
+import type { World } from '../../src/domain/entities/World';
 import { round1 } from '../../src/domain/shared/numbers';
 import { actionFactory, DTO, newWorld, resolve, seededRandom } from '../helpers/fixtures';
 import { balanced, expansionist, playScenario, steward } from '../helpers/strategies';

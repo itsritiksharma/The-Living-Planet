@@ -3,7 +3,7 @@ import { INDICATOR_LABELS, joinWords, lowerLabel, plural } from '../../domain/mo
 import type { ScenarioCalendar } from '../../domain/model/ScenarioCalendar';
 import type { IndicatorKey } from '../../domain/model/types';
 import { ESSENTIAL_KEYS, INDICATOR_KEYS } from '../../domain/model/types';
-import type { World } from '../../domain/model/World';
+import type { World } from '../../domain/entities/World';
 import { fixed1, percent, round1, signed1 } from '../../domain/shared/numbers';
 import type { IndicatorBandLevel, IndicatorViewDTO } from '../../contracts/views';
 

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { TurnSubmissions } from '../../src/domain/model/TurnSubmissions';
+import { TurnSubmissions } from '../../src/domain/entities/TurnSubmissions';
 import type { Indicators, WorldSnapshot } from '../../src/domain/model/types';
-import { World } from '../../src/domain/model/World';
+import { World } from '../../src/domain/entities/World';
 import { OutcomeClassifier } from '../../src/domain/services/OutcomeClassifier';
 import { TurnResolver } from '../../src/domain/services/TurnResolver';
 import { config, DTO, newWorld, resolve, withIndicators } from '../helpers/fixtures';

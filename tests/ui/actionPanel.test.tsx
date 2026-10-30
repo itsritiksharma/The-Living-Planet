@@ -2,7 +2,7 @@
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import type { PlayerActionDTO } from '../../src/contracts/views';
-import { World } from '../../src/domain/model/World';
+import { World } from '../../src/domain/entities/World';
 import { ActionPanel, type ActionPanelProps } from '../../src/ui/components/ActionPanel';
 import { config, DTO, newWorld, submissionsFor } from '../helpers/fixtures';
 import { fakeReflections, viewFor } from './viewFixtures';

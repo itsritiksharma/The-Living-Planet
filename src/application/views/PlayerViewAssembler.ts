@@ -1,9 +1,9 @@
 import type { SimulationConfig } from '../../domain/config/riverValley';
 import { plural } from '../../domain/model/labels';
 import { ScenarioCalendar } from '../../domain/model/ScenarioCalendar';
-import type { TurnSubmissions } from '../../domain/model/TurnSubmissions';
+import type { TurnSubmissions } from '../../domain/entities/TurnSubmissions';
 import type { PlayerId, SystemReport } from '../../domain/model/types';
-import type { World } from '../../domain/model/World';
+import type { World } from '../../domain/entities/World';
 import { EconomyPolicy } from '../../domain/services/EconomyPolicy';
 import { FlowCalculator } from '../../domain/services/FlowCalculator';
 import type {

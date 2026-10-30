@@ -1,6 +1,6 @@
-import type { TurnSubmissions } from '../model/TurnSubmissions';
+import type { TurnSubmissions } from '../entities/TurnSubmissions';
 import type { EventSnapshot } from '../model/types';
-import type { World } from '../model/World';
+import type { World } from '../entities/World';
 
 export type TurnResolution =
   | { status: 'resolved'; world: World; events: EventSnapshot[]; resolvedTurn: number }

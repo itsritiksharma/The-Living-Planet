@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { PlayerActionDTO, WorldSnapshot } from '../../src/domain/model/types';
-import { World } from '../../src/domain/model/World';
+import { World } from '../../src/domain/entities/World';
 import { actionFactory, config, DTO, newWorld, resolve, withIndicators } from '../helpers/fixtures';
 
 const lineAmount = (world: World, key: 'water' | 'ecosystemHealth' | 'pollution', prefix: string): number | undefined =>

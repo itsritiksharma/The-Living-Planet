@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { ActionFactory } from '../../src/domain/actions/ActionFactory';
 import { INDICATOR_KEYS } from '../../src/domain/model/types';
-import { World } from '../../src/domain/model/World';
+import { World } from '../../src/domain/entities/World';
 import { DTO, config } from '../helpers/fixtures';
 import { createTestApp } from '../helpers/app';
 

@@ -1,4 +1,4 @@
-import type { EventDraft, EventSnapshot } from './types';
+import type { EventDraft, EventSnapshot } from '../model/types';
 
 /** Append-only world history with deterministic, unique event ids (e1, e2, …). */
 export class EventLog {
